@@ -1,0 +1,21 @@
+{% extends 'main/layout.html' %}
+
+{% block title %} Главная страница {% endblock %}
+
+{% block content %}
+    <div class="features">
+    <h1> {{title}}</h1>
+    <p> Данная страница еще в работе, что бы вы хотели здесь видеть?</p>
+    <button class = "btn btn-warning"> Кнопка для привлечения внимания </button>
+
+
+        <h3>  </h3>
+        {% for el in obj %}
+        <p>{{ el }}</p>
+        {% endfor %}
+
+    </div>
+
+    {% include 'main/test.html' %}
+
+{% endblock %}

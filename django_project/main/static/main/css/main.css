@@ -1,0 +1,117 @@
+body {
+    background: white;
+}
+
+aside {
+    float: left;
+    background: #808080;
+    width: 20%;
+    padding: 1%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5 px solid #4d4d4d;
+
+}
+
+aside img {
+width: 160px;
+float:left;
+
+}
+
+aside .logo {
+font-size: 50px;
+margin-left: 0px;
+font-weight: bold;
+position: relative;
+top: 50px;
+}
+
+aside h3 {
+margin-top: 140px;
+font-size: 30px;
+font-weight: bold;
+}
+
+aside ul {list-style: none}
+
+aside ul li {
+display: block;
+margin-top: 50px;
+font-size: 20px;
+color: white;
+transition: all .5s ease;
+}
+
+aside ul li:hover, aside ul a:hover{
+color: #fefe22;
+transform: scale(1.05);
+
+
+}
+
+main .features {
+float:left;
+color: black;
+margin-top: 100px;
+text-align: center;
+width: 75%;
+}
+
+main .features h1 {font-size: 50px;}
+
+main .features p {font-size: 20px; max-width: 400px; margin: 20px auto}
+
+main .features1 {
+float:left;
+color: black;
+margin-top: 100px;
+text-align:center;
+width: 75%;
+}
+
+main .features1 h1 {font-size: 50px;}
+
+main .features1 p {font-size: 20px; max-width: 400px; margin:20px auto}
+
+main .features h3 {margin-top: 150px; font-size: 100px;}
+
+main .features2 {
+float:left;
+color: black;
+margin-top: 100px;
+text-align:center;
+width: 75%;
+}
+
+main .features2 h1 {font-size: 50px;}
+main .features2 img {
+float:none;
+padding: 2%;
+width: 500px;
+}
+
+.alert-warning {
+float: left;
+clear: both;
+width: 400px;
+height: 300px;
+margin: 20px 34%;
+text-align: left;
+}
+main .features h3 {
+font-size: 40px;
+margin-top:70px;
+}
+
+form {
+margin-left: 32%;
+width: 500px;
+margin-top: 50px;
+}
+
+.btn-primary {
+font-size: 15px;
+font-weight: bold;
+
+}
